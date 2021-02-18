@@ -1,0 +1,335 @@
+<!DOCTYPE html>
+<html lang="en-US">
+
+<!-- Mirrored from www.w3schools.com/css/default.asp by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 13 Mar 2016 05:37:02 GMT -->
+<head>
+
+<title>Anexo I</title>
+
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="Keywords" content="NF-e, NFC-e, Encat, Web- Services, Nota Eltrônica, Nota Fiscal, Nota de Consumidor, Nota Fiscal de Consumidor Eletrônica">
+<meta name="Description" content="Manual de Orientação ao Contribuinte- Nota Fiscal Eletrônica">
+    
+<link rel="stylesheet" type="text/css" href="estilo.css">
+</head>
+
+<body>
+    
+<!-- Cabeçalho da pagina, que deve sumir quando dou o scroll-->
+<div class='cabecalho topo'>
+    <div class='titulo'>
+        <p><span><span style="font-size: 14pt;">Projeto Nota Fiscal Eletr&ocirc;nica</span></span></p>
+        <p><span><span>Manual de Orienta&ccedil;&atilde;o ao Contribuinte</span></span></p>
+    </div>
+    <div class='imagens_cabecalho'>
+                    <img src="./Imagens/nfce_logo.png" alt="NFC-e" style="height:100%;width:auto;float:right ;">
+					<img src="./Imagens/nfe_logo.png" alt="NF-e" style="height:100%;width:auto;float:right;">
+    
+    </div>
+</div>
+    
+<!-- Barra de navegação superior, que deve ficar fixa no alto da pagina quando dou scroll -->
+
+<!--Essa primeira parte cria a barra, atribuindo os efeitos à ela -->    
+<div class='linha_superior sombra barra_nav' id='barra_superior'>
+    <div style='overflow:auto;'>
+        <div style='float:left;width:100%;overflow:hidden;height:44px'>
+            <!-- Aqui vai o índice geral do Manual-->
+            <a href='javascript:void(0);' id= "botao_menu" class='active' onclick='menu()' title='Menu'>&#9776;</a>
+			<a href='./default.html'  title='Visão Geral'>Visão Geral</a>
+			<div class='dropdown'>
+			     <a href='javascript:void(0);' id= "botao_leiaute" title='Web Services'>Web Services</a>
+				 <div class='dropdown-content'>
+					<a href='./NFeAutorizacao.html'  title='WS Autorizacao'> Web Service- NFeAutorização</a>
+					<a href='./NFeRetAutorizacao.html'  title='WS RetAutorizacao'>Web Service- NFeRetAutorizacao</a>
+					<a href='./NFeInutilizacao.html'  title='WS Inutilizacao'>Web Service- NFeInutilização</a>
+					<a href='./NFeConsultaProtocolo.html'  title='WS Consulta Protocolo'>Web Service- NFeConsulta Protocolo</a>
+					<a href='./NFeStatusServico.html'  title='WS Status Serviço'>Web Service- NFeStatus Servico</a>
+					<a href='./NFeConsultaCadastro.html'  title='WS Consulta Cadastro'>Web Service- NFeConsultaCadastro</a>
+					<a href='./NFeDistribuicaoDFe.html'  title='WS Distribuição DFe'>Web Service- NFeDistribuicaoDFe</a>
+					<a href='./RecepcaoEventoGeral.html'  title='WS Autorizacao'>Web Service- NFeRecepcaoEvento</a>
+				    <a href='./RecepcaoEventoGeral.html'  title='WS Autorizacao'>&emsp;&#8227;Parte Geral</a>
+					<a href='./RecepcaoEventoCancelamento.html'  title='Anexo II- Regras de Validação'>&emsp;&#8227;Cancelamento/Cancelamento por substituição</a>
+					<a href='./RecepcaoEventoCartaCorrecao.html'  title='WS Autorizacao'>&emsp;&#8227;Carta de Correção</a>
+					<a href='./RecepcaoEventoManifestacao.html'  title='Anexo II- Regras de Validação'>&emsp;&#8227;Manifestação do Destinatário</a>
+					<a href='./RecepcaoEventoEPEC.html'  title='WS Autorizacao'>&emsp;&#8227;EPEC</a>
+					<a href='./RecepcaoEventoProrrogacao.html'  title='Anexo II- Regras de Validação'>&emsp;&#8227;Pedido de Prorrogação</a>
+					<a href='./RecepcapEventoCancProrrogacao.html'  title='WS Autorizacao'>&emsp;&#8227;Cancelamento do Pedido de Prorrogação</a>
+				 </div> 
+			</div>
+			
+			<div class='dropdown hide_ultra_small'>
+			     <a href='javascript:void(0);' id= "botao_leiaute" title='Leiaute'>Leiaute</a>
+				 <div class='dropdown-content'>
+					<a href='./AnexoI_Leiaute.html'  title='Anexo I- Leiaute'>Anexo I- Leiaute</a>
+				</div>
+			</div>
+			
+			<div class='dropdown hide_super_small'>
+			     <a href='javascript:void(0);' id= "botao_leiaute" title='Regras de Validação'>Regras de Validação</a>
+				 <div class='dropdown-content'>
+					<a href='./AnexoII_Regras_de_validação.html'  title='Anexo II- Regras de Validação'>Anexo II- Regras de Validação</a>
+				</div>
+			</div>
+			
+			
+			<div class='dropdown hide_very_small'>
+			     <a href='javascript:void(0);' id= "botao_leiaute" title='Leiaute'>Danfe</a>
+				 <div class='dropdown-content'>
+					<a href='./AnexoIII_danfe.html'  title='Anexo III- Danfe'>Anexo III- DANFE</a>
+					<a href='./AnexoIV_danfe_NFCE.html'  title='Anexo IV- Danfe'>Anexo IV- DANFE NFC-e</a>
+				</div>
+			</div>
+			
+			<div class='dropdown hide_small'>
+			     <a href='javascript:void(0);'id= "botao_leiaute" title='Leiaute'>Contingência</a>
+				 <div class='dropdown-content'>
+					<a href='./AnexoV_Contingencia_NFe.html'  title='Anexo V- Contingência NF-e'>Anexo V- Contingência NF-e</a>
+					<a href='./AnexoVI_ContingenciaNFCe.html'  title='Anexo VI- Contingência NFC-e'>Anexo VI- Contingência NFC-e</a>
+				</div>
+			</div>
+			
+			<div class='dropdown'>
+			     <a href='javascript:void(0);' id= "botao_leiaute" title='Demais Anexos'><span class="normal">Demais Anexos</span><span class="super_pequeno">Anexos</span></a>
+				 <div class='dropdown-content'>
+				  
+				  <div class="show_ultra_small"> <!--A classe show_very_small garante que essas informações só serão exibidas dentro da aba de demais anexos quando a tela for inferior à 630 pixels -->
+					<a href='./AnexoI_Leiaute.html'  title='Anexo I- Leiaute'>Anexo I- Leiaute</a>
+				  </div>
+				  
+				  <div class="show_very_small"> <!--A classe show_very_small garante que essas informações só serão exibidas dentro da aba de demais anexos quando a tela for inferior à 840 pixels -->
+				 	<a href='./AnexoII_Regras_de_validação.html'  title='Anexo II- Regras de Validação'>Anexo II- Regras de Validação</a>
+				  </div>
+				  
+				  <div class="show_very_small"> <!--A classe show_very_small garante que essas informações só serão exibidas dentro da aba de demais anexos quando a tela for inferior à 934 pixels -->
+					<a href='./AnexoIII_danfe.html'  title='Anexo III- Danfe'>Anexo III- DANFE</a>
+					<a href='./AnexoIV_danfe_NFCE.html'  title='Anexo IV- Danfe'>Anexo IV- DANFE NFC-e</a>
+				  </div>
+				 
+				 <div class="show_small">  <!--A classe show_small garante que essas informações só serão exibidas dentro da aba de demais anexos quando a tela for inferior à 1100 pixels -->
+				    <a href='./AnexoV_Contingencia_NFe.html' title='Anexo V- Contingência NF-e'>Anexo V- Contingência NF-e</a>
+					<a href='./AnexoVI_ContingenciaNFCe.html'  title='Anexo VI- Contingência NFC-e'>Anexo VI- Contingência NFC-e</a>
+				 </div>
+				 
+				 
+					<a href='./AnexoVII_Ws_Disponiveis.html'  title='Anexo VII- WS Disponíveis'>Anexo VII- WS Disponíveis</a>
+					<a href='./AnexoVIII_Tabelas de UF_Municipio_Pais.html'  title='Anexo VIII- Tabelas de UF, Município e País'>Anexo VIII- Tabelas de UF, Município e País</a>
+					<a href='./AnexoIX_NCM_Especificos.html'  title='Anexo IX- NCM Específicos'>Anexo IX- NCM Específicos</a>
+					<a href='./AnexoX_Produtos_ANP.html'  title='Anexo X- Códigos de Produto da ANP Específicos'>Anexo X- Códigos de Produto da ANP Específicos</a>
+					<a href='./AnexoXI_Códigos_Identificadores.html'  title='Anexo XI- Códigos Identificadores'>Anexo XI- Códigos Identificadores</a>
+					<a href='./AnexoXII_CFOP_Especificos.html'  title='Anexo XII- CFOP Específicos'>Anexo XII- CFOP Específicos</a>
+					<a href='./AnexoXIII_Código_enquadramento_IPI.html'  title='Anexo XIII- Código de Enquadramento Legal do IPI'>Anexo X- Códigos de Produto da ANP Específicos</a>
+					<a href='./AnexoXIV_Calculo_EC_87.html'  title='Anexo XIV- Sistema de Cáldulo (EC 87/2015)'>Anexo XIV- Sistema de Cálculo (EC 87/2015)</a> 
+				</div>
+			</div>
+        </div>
+    </div>
+</div>
+
+
+
+    
+<div id='sub_barra'><!-- Isso aqui estbelece uma divisao pra toda a parte abaixo da barra de navegacao-->
+    <div id='menu_esq'> <!-- isso aqui cria o menu lateral, à esquerda-->
+        <div id='indice'> <!-- cria a parte interna do menu a esquerda-->
+            <div id='indice_texto'>  <!-- cria a parte interna da parte interna, para que fique abaixo da barra-->
+              <!-- Aqui vai o índice específico dessa parte-->
+<input type="text" id="myInput" onkeyup="pesquisa()" placeholder="Pesquisar índice..">			  
+
+<h4 style="text-align:center">Anexo I- Leiaute da NF-e</h4>
+
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("1. Leiaute da NF-e")'title='1. Leiaute da NF-e'>1<br><span class='subtitulo'> Leiaute da NF-e</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo A. Dados da Nota Fiscal eletrônica")'title='Grupo A. Dados da Nota Fiscal eletrônica'>Grupo A<br><span class='subtitulo'> Dados da Nota Fiscal eletrônica</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo B. Identificação da Nota Fiscal eletrônica")'title='Grupo B. Identificação da Nota Fiscal eletrônica'>Grupo B<br><span class='subtitulo'> Identificação da Nota Fiscal eletrônica</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo BA. Documento Fiscal Referenciado")'title='Grupo BA. Documento Fiscal Referenciado'>Grupo BA<br><span class='subtitulo'> Documento Fiscal Referenciado</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo C. Identificação do Emitente da Nota Fiscal eletrônica")'title='Grupo C. Identificação do Emitente da Nota Fiscal eletrônica'>Grupo C<br><span class='subtitulo'> Identificação do Emitente da Nota Fiscal eletrônica</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo D. Identificação do Fisco Emitente da NF-e")'title='Grupo D. Identificação do Fisco Emitente da NF-e'>Grupo D<br><span class='subtitulo'> Identificação do Fisco Emitente da NF-e</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo E. Identificação do Destinatário da Nota Fiscal eletrônica")'title='Grupo E. Identificação do Destinatário da Nota Fiscal eletrônica'>Grupo E<br><span class='subtitulo'> Identificação do Destinatário da Nota Fiscal eletrônica</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo F. Identificação do Local de Retirada")'title='Grupo F. Identificação do Local de Retirada'>Grupo F<br><span class='subtitulo'> Identificação do Local de Retirada</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo G. Identificação do Local de Entrega")'title='Grupo G. Identificação do Local de Entrega'>Grupo G<br><span class='subtitulo'> Identificação do Local de Entrega</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo GA. Autorização para obter XML")'title='Grupo GA. Autorização para obter XML'>Grupo GA<br><span class='subtitulo'> Autorização para obter XML</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo H. Detalhamento de Produtos e Serviços da NF-e")'title='Grupo H. Detalhamento de Produtos e Serviços da NF-e'>Grupo H<br><span class='subtitulo'> Detalhamento de Produtos e Serviços da NF-e</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo I. Produtos e Serviços da NF-e")'title='Grupo I. Produtos e Serviços da NF-e'>Grupo I<br><span class='subtitulo'> Produtos e Serviços da NF-e</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo I01. Produtos e Serviços / Declaração de Importação")'title='Grupo I01. Produtos e Serviços / Declaração de Importação'>Grupo I01<br><span class='subtitulo'> Produtos e Serviços / Declaração de Importação</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo I03. Produtos e Serviços / Grupo de Exportação")'title='Grupo I03. Produtos e Serviços / Grupo de Exportação'>Grupo I03<br><span class='subtitulo'> Produtos e Serviços / Grupo de Exportação</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo I05. Produtos e Serviços / Pedido de Compra")'title='Grupo I05. Produtos e Serviços / Pedido de Compra'>Grupo I05<br><span class='subtitulo'> Produtos e Serviços / Pedido de Compra</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo I07. Produtos e Serviços / Grupo Diversos")'title='Grupo I07. Produtos e Serviços / Grupo Diversos'>Grupo I07<br><span class='subtitulo'> Produtos e Serviços / Grupo Diversos</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo I80. Rastreabilidade de produto")'title='Grupo I80. Rastreabilidade de produto'>Grupo I80<br><span class='subtitulo'> Rastreabilidade de produto</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo J. Produto Específico")'title='Grupo J. Produto Específico'>Grupo J<br><span class='subtitulo'> Produto Específico</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo JA. Detalhamento Específico de Veículos novos")'title='Grupo JA. Detalhamento Específico de Veículos novos'>Grupo JA<br><span class='subtitulo'> Detalhamento Específico de Veículos novos</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo K. Detalhamento Específico de Medicamento e de matérias-primas farmacêuticas")'title='Grupo K. Detalhamento Específico de Medicamento e de matérias-primas farmacêuticas'>Grupo K<br><span class='subtitulo'> Detalhamento Específico de Medicamento e de matérias-primas farmacêuticas</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo L. Detalhamento Específico de Armamentos")'title='Grupo L. Detalhamento Específico de Armamentos'>Grupo L<br><span class='subtitulo'> Detalhamento Específico de Armamentos</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo LB. Detalhamento Específico para Operação com Papel Imune")'title='Grupo LB. Detalhamento Específico para Operação com Papel Imune'>Grupo LB<br><span class='subtitulo'> Detalhamento Específico para Operação com Papel Imune</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo M. Tributos incidentes no Produto ou Serviço")'title='Grupo M. Tributos incidentes no Produto ou Serviço'>Grupo M<br><span class='subtitulo'> Tributos incidentes no Produto ou Serviço</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo LA. Detalhamento Específico de Combustíveis")'title='Grupo LA. Detalhamento Específico de Combustíveis'>Grupo LA<br><span class='subtitulo'> Detalhamento Específico de Combustíveis</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo N. ICMS Normal e ST")'title='Grupo N. ICMS Normal e ST'>Grupo N<br><span class='subtitulo'> ICMS Normal e ST</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo N. Grupo Tributação do ICMS= 00")'title='Grupo N. Grupo Tributação do ICMS= 00'>Grupo N<br><span class='subtitulo'> Grupo Tributação do ICMS= 00</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo N. Grupo Tributação do ICMS= 10")'title='Grupo N. Grupo Tributação do ICMS= 10'>Grupo N<br><span class='subtitulo'> Grupo Tributação do ICMS= 10</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo N. Grupo Tributação do ICMS= 20")'title='Grupo N. Grupo Tributação do ICMS= 20'>Grupo N<br><span class='subtitulo'> Grupo Tributação do ICMS= 20</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo N. Grupo Tributação do ICMS= 30")'title='Grupo N. Grupo Tributação do ICMS= 30'>Grupo N<br><span class='subtitulo'> Grupo Tributação do ICMS= 30</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo N. Grupo Tributação do ICMS= 40, 41, 50")'title='Grupo N. Grupo Tributação do ICMS= 40, 41, 50'>Grupo N<br><span class='subtitulo'> Grupo Tributação do ICMS= 40, 41, 50</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo N. Grupo Tributação do ICMS= 51")'title='Grupo N. Grupo Tributação do ICMS= 51'>Grupo N<br><span class='subtitulo'> Grupo Tributação do ICMS= 51</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo N. Grupo Tributação do ICMS= 60")'title='Grupo N. Grupo Tributação do ICMS= 60'>Grupo N<br><span class='subtitulo'> Grupo Tributação do ICMS= 60</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo N. Grupo Tributação do ICMS= 70")'title='Grupo N. Grupo Tributação do ICMS= 70'>Grupo N<br><span class='subtitulo'> Grupo Tributação do ICMS= 70</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo N. Grupo Tributação do ICMS= 90")'title='Grupo N. Grupo Tributação do ICMS= 90'>Grupo N<br><span class='subtitulo'> Grupo Tributação do ICMS= 90</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo N. Grupo de Partilha do ICMS")'title='Grupo N. Grupo de Partilha do ICMS'>Grupo N<br><span class='subtitulo'> Grupo de Partilha do ICMS</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo N. Grupo de Repasse do ICMS ST")'title='Grupo N. Grupo de Repasse do ICMS ST'>Grupo N<br><span class='subtitulo'> Grupo de Repasse do ICMS ST</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo N. Grupo CRT=1 (CSON 101)")'title='Grupo N. Grupo CRT=1 (CSON 101)'>Grupo N<br><span class='subtitulo'> Grupo CRT=1 (CSON 101)</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo N. Grupo CRT=1 (CSON 102, 103, 300 ou 400)")'title='Grupo N. Grupo CRT=1 (CSON 102, 103, 300 ou 400)'>Grupo N<br><span class='subtitulo'> Grupo CRT=1 (CSON 102, 103, 300 ou 400)</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo N. Grupo CRT=1 (CSON 201)")'title='Grupo N. Grupo CRT=1 (CSON 201)'>Grupo N<br><span class='subtitulo'> Grupo CRT=1 (CSON 201)</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo N. Grupo CRT=1 (CSON 202 ou 203)")'title='Grupo N. Grupo CRT=1 (CSON 202 ou 203)'>Grupo N<br><span class='subtitulo'> Grupo CRT=1 (CSON 202 ou 203)</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo N. Grupo CRT=1 (CSON 500)")'title='Grupo N. Grupo CRT=1 (CSON 500)'>Grupo N<br><span class='subtitulo'> Grupo CRT=1 (CSON 500)</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo N. Grupo CRT=1 (CSON 900)")'title='Grupo N. Grupo CRT=1 (CSON 900)'>Grupo N<br><span class='subtitulo'> Grupo CRT=1 (CSON 900)</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo NA. ICMS para a UF de destino")'title='Grupo NA. ICMS para a UF de destino'>Grupo NA<br><span class='subtitulo'> ICMS para a UF de destino</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo O. Imposto sobre Produtos Industrializados")'title='Grupo O. Imposto sobre Produtos Industrializados'>Grupo O<br><span class='subtitulo'> Imposto sobre Produtos Industrializados</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo P. Imposto de Importação")'title='Grupo P. Imposto de Importação'>Grupo P<br><span class='subtitulo'> Imposto de Importação</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo Q. PIS")'title='Grupo Q. PIS'>Grupo Q<br><span class='subtitulo'> PIS</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo R. PIS ST")'title='Grupo R. PIS ST'>Grupo R<br><span class='subtitulo'> PIS ST</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo S. COFINS")'title='Grupo S. COFINS'>Grupo S<br><span class='subtitulo'> COFINS</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo T. COFINS ST")'title='Grupo T. COFINS ST'>Grupo T<br><span class='subtitulo'> COFINS ST</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo U. ISSQN")'title='Grupo U. ISSQN'>Grupo U<br><span class='subtitulo'> ISSQN</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo UA. Tributos Devolvidos (para o item da NF-e)")'title='Grupo UA. Tributos Devolvidos (para o item da NF-e)'>Grupo UA<br><span class='subtitulo'> Tributos Devolvidos (para o item da NF-e)</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo V. Informações adicionais (para o item da NF-e)")'title='Grupo V. Informações adicionais (para o item da NF-e)'>Grupo V<br><span class='subtitulo'> Informações adicionais (para o item da NF-e)</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo W. Total da NF-e")'title='Grupo W. Total da NF-e'>Grupo W<br><span class='subtitulo'> Total da NF-e</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo W01. Total da NF-e / ISSQN")'title='Grupo W01. Total da NF-e / ISSQN'>Grupo W01<br><span class='subtitulo'> Total da NF-e / ISSQN</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo W02. Total da NF-e / Retenção de Tributos")'title='Grupo W02. Total da NF-e / Retenção de Tributos'>Grupo W02<br><span class='subtitulo'> Total da NF-e / Retenção de Tributos</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo X. Informações do Transporte da NF-e")'title='Grupo X. Informações do Transporte da NF-e'>Grupo X<br><span class='subtitulo'> Informações do Transporte da NF-e</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo Y. Dados da Cobrança")'title='Grupo Y. Dados da Cobrança'>Grupo Y<br><span class='subtitulo'> Dados da Cobrança</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo YA. Informações de Pagamento")'title='Grupo YA. Informações de Pagamento'>Grupo YA<br><span class='subtitulo'> Informações de Pagamento</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo Z. Informações Adicionais da NF-e")'title='Grupo Z. Informações Adicionais da NF-e'>Grupo Z<br><span class='subtitulo'> Informações Adicionais da NF-e</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo ZA. Informações de Comércio Exterior")'title='Grupo ZA. Informações de Comércio Exterior'>Grupo ZA<br><span class='subtitulo'> Informações de Comércio Exterior</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo ZB. Informações de Compras")'title='Grupo ZB. Informações de Compras'>Grupo ZB<br><span class='subtitulo'> Informações de Compras</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo ZC. Informações do Registro de Aquisição de Cana")'title='Grupo ZC. Informações do Registro de Aquisição de Cana'>Grupo ZC<br><span class='subtitulo'> Informações do Registro de Aquisição de Cana</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo ZD. Informações do Responsável Técnico")'title='Grupo ZD. Informações do Responsável Técnico'>Grupo ZD<br><span class='subtitulo'> Informações do Responsável Técnico</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo ZX. Informações Suplementares da Nota Fiscal")'title='Grupo ZX. Informações Suplementares da Nota Fiscal'>Grupo ZX<br><span class='subtitulo'> Informações Suplementares da Nota Fiscal</span></a><br>
+<a href='javascript:void(0);' id="botao_meiodatela" onclick='meiodatela("Grupo ZZ. Informações da Assinatura Digital")'title='Grupo ZZ. Informações da Assinatura Digital'>Grupo ZZ<br><span class='subtitulo'> Informações da Assinatura Digital</span></a><br>
+
+
+            </div>
+        </div>
+    </div>
+    <div class='corpo'>
+            <div id='principal'>  
+        <!-- Aqui vão as tabelas e o texto do MOC -->
+ <h1>Proposta de Alteração no Leiaute da NF-e</h1>          
+
+
+
+
+<titulo_tabela id="Grupo N. Grupo Tributação do ICMS= 90">Grupo N. Grupo Tributação do ICMS</titulo_tabela><br><br>
+<table class="leiaute_nfe"><tr><th>#</th><th>ID</th><th>Campo</th><th>Descrição</th><th>Ele</th><th>Pai</th><th>Tipo</th><th>Ocor.</th><th>Tam.</th><th>Observação</th></tr>
+<tr class="linha_grupo"><td>232</td><td>N10</td><td>ICMS90</td><td>Grupo Tributação do ICMS = 90</td><td>CG</td><td>N01</td><td></td><td>1-1</td><td></td><td>Tributação ICMS: Outros</td></tr>
+<tr class=""><td>233</td><td>N11</td><td>orig</td><td>Origem da mercadoria</td><td>E</td><td>N10</td><td>N</td><td>1-1</td><td>1</td><td>0 - Nacional, exceto as indicadas nos códigos 3, 4, 5 e 8; 1 - Estrangeira - Importação direta, exceto a indicada no código 6; 2 - Estrangeira - Adquirida no mercado interno, exceto a indicada no código 7; 3 - Nacional, mercadoria ou bem com Conteúdo de Importação superior a 40% e inferior ou igual a 70%; 4 - Nacional, cuja produção tenha sido feita em conformidade com os processos produtivos básicos de que tratam as legislações citadas nos Ajustes; 5 - Nacional, mercadoria ou bem com Conteúdo de Importação inferior ou igual a 40%; 6 - Estrangeira - Importação direta, sem similar nacional, constante em lista da CAMEX e gás natural; 7 - Estrangeira - Adquirida no mercado interno, sem similar nacional, constante lista CAMEX e gás natural. 8 - Nacional, mercadoria ou bem com Conteúdo de Importação superior a 70%;</td></tr>
+<tr class=""><td>234</td><td>N12</td><td>CST</td><td>Tributação do ICMS = 90</td><td>E</td><td>N10</td><td>N</td><td>1-1</td><td>2</td><td>90=Outros</td></tr>
+<tr class="linha_grupo"><td>234.1</td><td>N12.1</td><td>-x-</td><td>Sequência XML</td><td>G</td><td>N10</td><td></td><td>0-1</td><td></td><td>Grupo opcional.</td></tr>
+<tr class=""><td>235</td><td>N13</td><td>modBC</td><td>Modalidade de determinação da BC do ICMS</td><td>E</td><td>N12.1</td><td>N</td><td>1-1</td><td>1</td><td>0=Margem Valor Agregado (%);<br>1=Pauta (Valor);<br>2=Preço Tabelado Máx. (valor);<br>3=Valor da operação.</td></tr>
+<tr class=""><td>236</td><td>N15</td><td>vBC</td><td>Valor da BC do ICMS</td><td>E</td><td>N12.1</td><td>N</td><td>1-1</td><td>13v2</td><td></td></tr>
+<tr class=""><td>237</td><td>N14</td><td>pRedBC</td><td>Percentual da Redução de BC</td><td>E</td><td>N12.1</td><td>N</td><td>0-1</td><td>3v2-4</td><td></td></tr>
+<tr class=""><td>238</td><td>N16</td><td>pICMS</td><td>Alíquota do imposto</td><td>E</td><td>N12.1</td><td>N</td><td>1-1</td><td>3v2-4</td><td>Alíquota do ICMS sem o FCP. Quando for o caso, informar a alíquota do FCP no campo pFCP (Atualizado NT 2016/002)</td></tr>
+<tr class=""><td>239</td><td>N17</td><td>vICMS</td><td>Valor do ICMS</td><td>E</td><td>N12.1</td><td>N</td><td>1-1</td><td>13v2</td><td></td></tr>
+<tr class="linha_grupo"><td>239</td><td>N17.0</td><td>-x-</td><td>Sequência XML</td><td>G</td><td>N12.1</td><td></td><td>0-1</td><td></td><td>Grupo opcional. (Incluído na NT 2016/002)</td></tr>
+<tr class=""><td>239.w</td><td>N17a</td><td>vBCFCP</td><td>Valor da Base de Cálculo do FCP</td><td>E</td><td>N17.0</td><td>N</td><td>1-1</td><td>13v2</td><td>Informar o valor da Base de Cálculo do FCP</td></tr>
+<tr class=""><td>239.x</td><td>N17b</td><td>pFCP</td><td>Percentual do ICMS relativo ao Fundo de Combate à Pobreza (FCP)</td><td>E</td><td>N17.0</td><td>N</td><td>1-1</td><td>3v2-4</td><td>Percentual relativo ao Fundo de Combate à Pobreza (FCP). Nota: Percentual máximo de 2%, conforme a legislação.</td></tr>
+<tr class=""><td>239.y</td><td>N17c</td><td>vFCP</td><td>Valor do ICMS relativo ao Fundo de Combate à Pobreza (FCP)</td><td>E</td><td>N17.0</td><td>N</td><td>1-1</td><td>13v2</td><td>Valor do ICMS relativo ao Fundo de Combate à Pobreza (FCP).</td></tr>
+<tr class="linha_grupo"><td>239.1</td><td>N17.1</td><td>-x-</td><td>Sequência XML</td><td>G</td><td>N10</td><td></td><td>0-1</td><td></td><td>Grupo opcional.</td></tr>
+<tr class=""><td>240</td><td>N18</td><td>modBCST</td><td>Modalidade de determinação da BC do ICMS ST</td><td>E</td><td>N17.1</td><td>N</td><td>1-1</td><td>1</td><td>0=Preço tabelado ou máximo sugerido;<br>1=Lista Negativa (valor);<br>2=Lista Positiva (valor);<br>3=Lista Neutra (valor);<br>4=Margem Valor Agregado (%); 5=Pauta (valor);</td></tr>
+<tr class=""><td>241</td><td>N19</td><td>pMVAST</td><td>Percentual da margem de valor Adicionado do ICMS ST</td><td>E</td><td>N17.1</td><td>N</td><td>0-1</td><td>3v2-4</td><td></td></tr>
+<tr class=""><td>242</td><td>N20</td><td>pRedBCST</td><td>Percentual da Redução de BC do ICMS ST</td><td>E</td><td>N17.1</td><td>N</td><td>0-1</td><td>3v2-4</td><td></td></tr>
+<tr class=""><td>243</td><td>N21</td><td>vBCST</td><td>Valor da BC do ICMS ST</td><td>E</td><td>N17.1</td><td>N</td><td>1-1</td><td>13v2</td><td></td></tr>
+<tr class=""><td>244</td><td>N22</td><td>pICMSST</td><td>Alíquota do imposto do ICMS ST</td><td>E</td><td>N17.1</td><td>N</td><td>1-1</td><td>3v2-4</td><td>Alíquota do ICMS ST sem o FCP. Quando for o caso, informar a alíquota do FCP no campo pFCP (Atualizado NT 2016/002)</td></tr>
+<tr class=""><td>245</td><td>N23</td><td>vICMSST</td><td>Valor do ICMS ST</td><td>E</td><td>N17.1</td><td>N</td><td>1-1</td><td>13v2</td><td>Valor do ICMS ST retido</td></tr>
+<tr class="linha_grupo"><td>245</td><td>N23.1</td><td>-x-</td><td>Sequência XML</td><td>G</td><td>N17.1</td><td></td><td>0-1</td><td></td><td>Grupo opcional. (Incluído na NT 2016/002)</td></tr>
+<tr class=""><td>245.w</td><td>N23.a</td><td>vBCFCPST</td><td>Valor da Base de Cálculo do FCP retido por Substituição Tributária</td><td>E</td><td>N23.1</td><td>N</td><td>1-1</td><td>13v2</td><td>Informar o valor da Base de Cálculo do FCP retido por Substituição Tributária</td></tr>
+<tr class=""><td>245.x</td><td>N23.b</td><td>pFCPST</td><td>Percentual do FCP retido por Substituição Tributária</td><td>E</td><td>N23.1</td><td>N</td><td>1-1</td><td>3v2-4</td><td>Percentual relativo ao Fundo de Combate à Pobreza (FCP) retido por substituição tributária.</td></tr>
+<tr class=""><td>245.y</td><td>N23.d</td><td>vFCPST</td><td>Valor do FCP retido por Substituição Tributária</td><td>E</td><td>N23.1</td><td>N</td><td>1-1</td><td>13v2</td><td>Valor do ICMS relativo ao Fundo de Combate à Pobreza (FCP) retido por substituição tributária.</td></tr>
+<tr class="linha_grupo"><td>245.1</td><td>N27.1</td><td>-x-</td><td>Sequência XML</td><td>G</td><td>N10</td><td></td><td>0-1</td><td></td><td>Grupo opcional.</td></tr>
+<tr class=""><td>245.2</td><td>N28a</td><td>vICMSDeson</td><td>Valor do ICMS desonerado</td><td>E</td><td>N27.1</td><td>N</td><td>1-1</td><td>13v2</td><td>Informar apenas nos motivos de desoneração documentados abaixo.</td></tr>
+<tr class=""><td>245.3</td><td>N28</td><td>motDesICMS</td><td>Motivo da desoneração do ICMS</td><td>E</td><td>N27.1</td><td>N</td><td>1-1</td><td>2</td><td>Campo será preenchido quando o campo anterior estiver preenchido. Informar o motivo da desoneração: 3=Uso na agropecuária;<br>9=Outros;<br>12=Órgão de fomento e desenvolvimento agropecuário.</td></tr></table><br>
+
+ </div>
+    </div>
+</div>
+
+<script>
+    window.onload = function() {myFunction()};
+		window.onscroll = function() {myFunction()};
+
+		var navbar = document.getElementById("barra_superior");
+		var sticky = navbar.offsetTop;
+        var leftmenu = document.getElementById("indice");
+    
+		function myFunction() {
+			if (window.pageYOffset >= sticky) {
+				navbar.classList.add("sticky")
+                
+			} else {
+				navbar.classList.remove("sticky");
+			}
+            
+            var element = document.getElementById("barra_superior");
+                elemRect = element.getBoundingClientRect(),
+            
+                leftmenu.style.paddingTop = elemRect.bottom+"px";
+		}
+
+    
+    
+    function menu(){
+        var fechar = document.getElementById("menu_esq");
+        if (fechar.style.display != "none"){
+            fechar.style.display = "none";
+            var parte_maior = document.getElementById("principal");
+            document.getElementById("botao_menu").classList.remove("active");
+            parte_maior.style.paddingLeft = "10px";
+        }
+        else{
+            fechar.style.display = "block";
+            var parte_maior = document.getElementById("principal");
+            parte_maior.style.paddingLeft = "320px";
+            document.getElementById("botao_menu").classList.add("active");
+            
+        }
+    }
+	
+	function pesquisa(){
+	
+	   var input, filter, table, tr, td, i, txtValue;
+		input = document.getElementById("myInput");
+		filter = input.value.toUpperCase();
+		table = document.getElementById("indice");
+		tr = table.getElementsByTagName('a');
+		breakline = table.getElementsByTagName('br');
+  
+
+	// Loop through all table rows, and hide those who don't match the search query
+		for (i = 0; i < tr.length; i++) {
+		if (tr[i]) {
+			txtValue = tr[i].textContent || tr[i].innerText;
+			if (txtValue.toUpperCase().indexOf(filter) > -1) {
+				tr[i].style.display = "";
+				breakline[(i*2+1)].style.display="";
+			} else {
+				tr[i].style.display = "none";
+				breakline[(i*2+1)].style.display="none";//para cada tag escondida, tenho duas tags br, uma interna e outra externa. Logo, a tag br que eu quero esconder com essa função é sempre dada por i*2+1
+			  }
+		} 
+		}
+	}
+	
+	function meiodatela(id_elemento){
+		var elmnt = document.getElementById(id_elemento);
+		posicao = elmnt.offsetTop - 100;
+		window.scrollTo(0, posicao);
+	}
+    
+    
+    
+    
+    </script>
+
+
+    
+</body>
+<!-- Mirrored from www.w3schools.com/css/default.asp by HTTrack Website Copier/3.x [XR&CO'2014], Sun, 13 Mar 2016 05:41:03 GMT -->
+</html>
